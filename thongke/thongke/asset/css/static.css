@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-header{
+    background: #09182d;
+    display: flow-root;
+}
+.main-header,.main-chart{
+    padding: 15px 25px;
+}
+.main-header .title-pages{
+    float: left
+}
+.main-header .title-pages h2{
+    font-size: 20px;
+    color: white;
+    padding-top: 8px;
+}
+.main-header .avatar{
+    float: right;
+}
+.main-header .avatar img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.main-chart #select-date{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.main-chart span{
+    padding: 10px 25px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+#select-date .active{
+    background-color: #ef3226;
+    color: white;
+}
